@@ -68,11 +68,11 @@ Persistence i durability mehanizmi obezbeđuju trajno čuvanje poruka i redova u
 
 RabbitMQ nudi niz bezbednosnih mehanizama koji su ključni za zaštitu podataka i integritet sistema. Među najvažnijim aspektima su autentifikacija i autorizacija, koje određuju ko može da šalje i prima poruke u okviru određenih virtualnih host-ova, kao i enkripcija komunikacije putem TLS/SSL protokola kako bi se sprečilo prisluškivanje i napadi u mreži. Pored toga, RabbitMQ omogućava finu kontrolu nad pravima korisnika, audite događaja i politike pristupa na nivou virtualnih host-ova. Takođe, pažnja mora da se posveti upravljanju lozinkama, konfiguraciji firewall-a i ograničavanju pristupa brokeru samo na poverene servise i mreže, kako bi se umanjio rizik od neautorizovanih pristupa.
 
-Ipak, više o bezbednosnim aspektima će biti razmatrano u sledećim koracima analize sistema i njegovih komponenti.
-
 <img width="679" height="300" alt="image" src="https://github.com/user-attachments/assets/1feb69e1-3ed6-410e-afd3-adbfda099b89" />
 
 *Slika 3. Security komponente RabbitMQ-a.*
+
+Ipak, više o bezbednosnim aspektima će biti razmatrano u sledećim koracima analize sistema i njegovih komponenti.
 
 ## Izvori:
 - https://medium.com/cwan-engineering/rabbitmq-concepts-and-best-practices-aa3c699d6f08
