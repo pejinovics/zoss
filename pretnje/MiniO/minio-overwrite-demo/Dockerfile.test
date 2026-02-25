@@ -1,0 +1,5 @@
+FROM golang:latest
+WORKDIR /app
+COPY scripts/test-overwrite.go .
+RUN go mod init test-overwrite && go get github.com/minio/minio-go/v7
+ENTRYPOINT ["go", "run", "test-overwrite.go"]
